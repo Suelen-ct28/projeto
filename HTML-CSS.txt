@@ -1,0 +1,40 @@
+HEAD: Configurações da página
+BODY: parte visível
+LINK: chamamos o CSS através daqui
+<p>: usado para parágrafo
+url(): usado para localizar onde está a imagem(no exemplo usado; usado no CSS)
+margin: propriedade para definir onde quero que a caixa fique
+<img src="" alt="">(usado no HTML): no src= encontra a imagem, é só colocar o caminho, encontra de qualquer lugar; no alt= se coloca a descrição da imagem caso não a encontre
+°No CSS normalmente não se define 'height'
+°<div> é um elemento block; <img> é um elemento inline e em display inline não aplicamos o "margin: auto"
+°o img por ser um display inline, no css nós podemos primeiro fazer um # pai, definir o alinhamento, e depois chamar o filho. Exemplo:
+#exemplo {
+}
+#exemplo img{
+}
+e ai da para alinhar corretamente este elemento
+°Ao usar o * no css, quer dizer que ele vai usar aquilo que você vai colocar dentro dele, em todas as partes. Exemplo:
+body * {
+}
+quer dizer que o que voce colocar dentro do body, vai ser usado em tudo
+°No CSS: a propriedade 'margin', carrega o: margin-top, margin-right, margin-bottom, margin-left. Em vez de fazer um por um, você pode reunir todos em um só. Exemplo:
+margin: 56px auto 0px auto;
+<ul></ul>: usada para fazer lista não ordenada(HTML)
+<li></li>: item da lista
+<a></a>: usado para definir os links dos botões
+°usar o target='_blank' faz abrir o link em outra página sem fechar a que está aberta
+°No CSS:
+border-radious: arredonda a borda do elemento
+background: dentro do elemento
+border: borda do elemento
+display: alinha o texto
+text-decoration: adiciona ou retira algum detalhe do texto
+pseudo-selector: faz aquele transicionamento de um botão para o outro, mostrando que está selecionado aquele
+°Usar:
+#exemplo a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+}
+Faz com que fique uma borda ao passar o mouse em cima do elemento
+<footer></footer> : para rodapé do site
+svg: é um tipo de arquivo que parece ter tags html, mas ele desenha a imagem.

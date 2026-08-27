@@ -1,0 +1,10 @@
+JAVASCRIPT
+
+let = é uma caixinha que guarda um conteúdo para ser mostrado mais tarde. 
+Ex: let boasVindas = "Fala, Dev!"
+Depois chama esse conteúdo
+Ex: alert(boasVindas)
+
+const = não pode mudar o valor
+
+pular de linha é com shift + enter

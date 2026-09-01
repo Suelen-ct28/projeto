@@ -39,7 +39,9 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100px;
+  max-width: 588px;
+
   /*border: 1px solid red; usada só para mostrar como ela vai se mexendo conforme vamos mudando aqui*/
   margin: 56px auto 0px auto;
   padding: 0 24px;
